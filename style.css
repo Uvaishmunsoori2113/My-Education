@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Kosugi+Maru&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.logo {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 33%;
+    padding: 10px 3px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid #fff; */
+    font-family: "Ubuntu", sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+
+/* list style  */
+.nav-list {
+    display: flex;
+    width: 75%;
+    /* background-color: red; */
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 18px;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    /* transition-duration: 2s; */
+}
+
+.nav-list a:hover {
+    color: rgb(51, 231, 31);
+    text-decoration: 1px solid red underline;
+    transition-duration: 2s;
+
+}
+
+.right-nav {
+    width: 35%;
+    /* background-color: blue; */
+    text-align: right;
+
+}
+
+/* hiden navbar */
+
+.btn-sm {
+    padding: 2px 10px;
+    vertical-align: middle;
+    margin: 12px;
+    font-size: 17px;
+    background: none;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn-sm:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+#search {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* main contant code */
+.first-section {
+    height: 100vh;
+}
+
+.main-box {
+    height: 85%;
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.first-half {
+    /* width: 70%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+
+}
+
+.second-half {
+    /* width: 30%; */
+}
+
+.second-half img {
+    width: 230px;
+    border: 4px solid #FFF;
+    border-radius: 100%;
+
+}
+
+.text-big {
+    font-size: 34px;
+    color: #fff;
+    font-family: cursive;
+}
+
+.text-small {
+    font-size: 18px;
+    color: #fff;
+    font-family: cursive;
+    margin: 8px;
+}
+
+/* button code */
+.btn {
+
+    margin: 5px;
+    padding: 8px 25px;
+    font-size: 17px;
+    background: none;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+/* section2 */
+.sc-right {
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.sc-left {
+    flex-direction: row-reverse;
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.paras {
+
+    padding: 78px 95px;
+}
+
+.big {
+    font-size: 36px;
+    color: black;
+
+}
+
+.small {
+    font-size: 18px;
+    color: black;
+
+    margin: 8px;
+}
+
+.them img {
+
+    width: 245px;
+    border: 4px solid gray;
+    border-radius: 27px;
+}
+
+/* form coading  start*/
+.center {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.contact {
+    height: 833px;
+    background-color: whitesmoke;
+}
+
+.form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.form input {
+
+    margin: 15px 0px;
+    border: 2px solid gray;
+    width: 98%;
+    padding: 5px 3px;
+    font-size: 17px;
+    border-radius: 13px;
+}
+
+.form textarea {
+    margin: 15px 0px;
+    border: 2px solid gray;
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 17px;
+    border-radius: 13px;
+}
+
+.bn {
+    margin: 7px;
+    padding: 9px 30px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background: none;
+}
+
+.bn:hover {
+    background-color: green;
+    color: #FFF;
+}
+
+/* footer start */
+.footer h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+}
+
+.footer {
+
+    padding: 10px 3px;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    height: 4px;
+    background-color: #fff;
+    margin: 3px 3px;
+}
+
+
+@media (max-width: 1100px) {
+
+
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color:rosybrown;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    .nav-list li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+
+    .right-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+
+        padding: 18px 5px;
+    }
+
+    .right-nav {
+        text-align: center;
+    }
+
+    .burger {
+
+        display: block;
+        padding: 1px 2px;
+    }
+
+    .main-box {
+        flex-direction: column-reverse;
+        max-width: 500px;
+    }
+
+    .text-big {
+        text-align: center;
+
+    }
+
+    .text-small {
+        text-align: center;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .sc-right {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+
+
+    }
+
+    .sc-left {
+        flex-direction: column-reverse;
+    }
+
+    .paras {
+        padding: 5px 0px;
+    }
+
+    .small {
+        text-align: center;
+
+    }
+
+    .big {
+        text-align: center;
+    }
+
+    .form input {
+        width: 91%;
+        margin-left: 11px;
+    }
+
+    .form textarea {
+        width: 91%;
+        margin-left: 11px;
+    }
+
+    .bn {
+        margin-left: 17px;
+    }
+
+}
